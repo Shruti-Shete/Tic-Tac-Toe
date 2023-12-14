@@ -1,12 +1,12 @@
 **Tic-Tac-Toe Game**
 
-The code uses a combination of frames, labels, buttons, and event handling to create a simple Tic Tac Toe game with a graphical interface.
-The scoring logic highlights winning combinations and increments player scores accordingly.
+The code uses a combination of frames, labels, buttons, and event handling to create a simple Tic Tac Toe game with a graphical interface.<br />
+The scoring logic highlights winning combinations and increments player scores accordingly.<br />
 The code provides a user-friendly way to play and track scores in a Tic Tac Toe game.
 
 **GUI Setup:**
 
-The code utilizes Tkinter to create a graphical user interface (GUI) for the Tic Tac Toe game.
+The code utilizes Tkinter to create a graphical user interface (GUI) for the Tic Tac Toe game.<br />
 The GUI includes a main window with a specified size, title, and background color.
 
 **Frame Configuration:**
@@ -19,13 +19,13 @@ IntVar() variables (Playerx and Playero) are used to keep track of the scores fo
 
 **Buttons and Click Handling:**
 
-The game board consists of nine buttons arranged in a 3x3 grid (button1 to button9).\\
-Clicking a button triggers the checker function, which alternately places "X" or "O" on the button based on the current state.\\
+The game board consists of nine buttons arranged in a 3x3 grid (button1 to button9).<br />
+Clicking a button triggers the checker function, which alternately places "X" or "O" on the button based on the current state.<br />
 The click variable is used to alternate between "X" and "O."
 
 **Scoring Logic:**
 
-The scores function is called after each move to check if any player has won.
+The scores function is called after each move to check if any player has won.<br />
 If a player wins, the corresponding buttons are highlighted, and their score is incremented.
 
 **Resetting the Game:**
