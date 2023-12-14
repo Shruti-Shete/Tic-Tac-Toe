@@ -4,6 +4,18 @@ The code uses a combination of frames, labels, buttons, and event handling to cr
 The scoring logic highlights winning combinations and increments player scores accordingly.<br />
 The code provides a user-friendly way to play and track scores in a Tic Tac Toe game.
 
+**Libraries used**
+
+*Tkinter:*
+
+Tkinter is the standard GUI (Graphical User Interface) toolkit for Python.<br />
+It provides modules and classes to create a variety of GUI elements, such as windows, buttons, labels, and entry fields.
+
+*tkinter.messagebox:*
+
+This module is part of the Tkinter library and provides a simple way to display message boxes in a Tkinter application.<br />
+In this code, tkinter.messagebox is used to display message boxes for certain events, such as winning the game.
+
 **GUI Setup:**
 
 The code utilizes Tkinter to create a graphical user interface (GUI) for the Tic Tac Toe game.<br />
